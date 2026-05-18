@@ -11,7 +11,7 @@ const DEFAULT_TOASTER_DURATION = 3500;
 export const metadata = {
   title: 'Gamified Interview Trainer — AI-Powered Interview Practice',
   description:
-    'Practice JavaScript interviews with AI scoring, adaptive difficulty, and real-time feedback. Build your confidence and ace your next technical interview.',
+    'Practice interviews with AI scoring, adaptive difficulty, and real-time feedback. Build your confidence and ace your next technical interview.',
 };
 
 export default async function RootLayout({
