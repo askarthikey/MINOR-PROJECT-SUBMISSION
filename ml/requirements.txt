@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+torch
+torchvision
+transformers
+sentence-transformers
+Pillow
+numpy
+scikit-learn
+python-multipart
+PyMuPDF
+rapidfuzz
+pydantic

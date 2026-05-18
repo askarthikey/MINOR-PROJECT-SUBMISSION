@@ -1,0 +1,120 @@
+{
+  "model_name": "ViT Facial Emotion Classifier",
+  "num_samples": 2000,
+  "num_classes": 7,
+  "classes": [
+    "angry",
+    "disgust",
+    "fear",
+    "happy",
+    "neutral",
+    "sad",
+    "surprise"
+  ],
+  "overall_accuracy": 0.8785,
+  "macro_f1": 0.8808,
+  "weighted_f1": 0.8781,
+  "cohen_kappa": 0.8536,
+  "matthews_corrcoef": 0.8537,
+  "per_class_accuracy": {
+    "angry": 0.9142,
+    "disgust": 1.0,
+    "fear": 0.8035,
+    "happy": 0.9317,
+    "neutral": 0.8571,
+    "sad": 0.8076,
+    "surprise": 0.9279
+  },
+  "per_class_f1": {
+    "angry": 0.8994,
+    "disgust": 0.9296,
+    "fear": 0.8312,
+    "happy": 0.9375,
+    "neutral": 0.8547,
+    "sad": 0.8179,
+    "surprise": 0.8957
+  },
+  "roc_auc_per_class": {
+    "sad": 0.9661,
+    "disgust": 1.0,
+    "angry": 0.9903,
+    "neutral": 0.9727,
+    "fear": 0.9682,
+    "surprise": 0.9855,
+    "happy": 0.9911
+  },
+  "avg_precision_per_class": {
+    "sad": 0.8888,
+    "disgust": 1.0,
+    "angry": 0.9656,
+    "neutral": 0.9062,
+    "fear": 0.8921,
+    "surprise": 0.9317,
+    "happy": 0.9779
+  },
+  "inference": {
+    "model_load_time_s": 2.07,
+    "avg_inference_ms": 187.3,
+    "p50_ms": 187.42,
+    "p95_ms": 202.9,
+    "p99_ms": 240.26,
+    "throughput_fps": 5.34
+  },
+  "classification_report": {
+    "angry": {
+      "precision": 0.8849840255591054,
+      "recall": 0.9141914191419142,
+      "f1-score": 0.8993506493506493,
+      "support": 303.0
+    },
+    "disgust": {
+      "precision": 0.868421052631579,
+      "recall": 1.0,
+      "f1-score": 0.9295774647887324,
+      "support": 33.0
+    },
+    "fear": {
+      "precision": 0.8609022556390977,
+      "recall": 0.8035087719298246,
+      "f1-score": 0.8312159709618875,
+      "support": 285.0
+    },
+    "happy": {
+      "precision": 0.9433962264150944,
+      "recall": 0.9316770186335404,
+      "f1-score": 0.9375,
+      "support": 483.0
+    },
+    "neutral": {
+      "precision": 0.8523676880222841,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.8547486033519553,
+      "support": 357.0
+    },
+    "sad": {
+      "precision": 0.8284789644012945,
+      "recall": 0.807570977917981,
+      "f1-score": 0.8178913738019169,
+      "support": 317.0
+    },
+    "surprise": {
+      "precision": 0.865546218487395,
+      "recall": 0.9279279279279279,
+      "f1-score": 0.8956521739130435,
+      "support": 222.0
+    },
+    "accuracy": 0.8785,
+    "macro avg": {
+      "precision": 0.872013775879407,
+      "recall": 0.8917169960991493,
+      "f1-score": 0.8808480337383121,
+      "support": 2000.0
+    },
+    "weighted avg": {
+      "precision": 0.878449965770126,
+      "recall": 0.8785,
+      "f1-score": 0.8780699771579821,
+      "support": 2000.0
+    }
+  }
+}
